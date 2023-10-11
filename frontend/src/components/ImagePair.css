@@ -1,0 +1,40 @@
+.image1:hover {
+  transform: scale(1.1);
+  filter: brightness(105%);
+  border: 5px solid red;
+  
+}
+.image2:hover {
+  transform: scale(1.1);
+  filter: brightness(105%);
+  border: 5px solid red;
+}
+.image1
+{
+  margin:auto;
+  margin-top: 20px;
+  transform-origin: 50% 65%;
+  transition: transform 0.5s, filter 3s ease-in-out;
+  animation: fadeAnim 0.5s ease-in-out;
+  filter: brightness(95%);
+  border: 5px solid blue;
+}
+.image2
+{
+  margin:auto;
+  margin-top: 20px;
+  transform-origin: 50% 65%;
+  transition: transform 0.5s, filter 3s ease-in-out;
+  animation: fadeAnim 0.5s ease-in-out;
+  filter: brightness(95%);
+  border: 5px solid blue;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: black;
+  background: white;
+  line-height: 50px;
+
+}

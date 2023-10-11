@@ -1,0 +1,103 @@
+.loginDiv{
+    color: whitesmoke;
+    position: relative; bottom: 100%; left: -33.5%; 
+    width: 35%;
+    height: 300px;
+    padding: 40px auto;
+    justify-content: center;
+    align-items: center;
+   
+    background-color:#292928;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+
+   
+
+ 
+
+}
+@media  screen and  (max-width:900px){
+    .loginDiv{
+        color: whitesmoke;
+        position: relative; bottom: 100%; left: -7.8%; 
+        width: 82%;
+        height: 300px;
+        padding: 40px auto;
+        justify-content: center;
+        align-items: center;
+       
+        background-color:#292928;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+    
+       
+    
+     
+    
+    }
+}
+@media screen and (min-width: 901px)
+{
+    .loginDiv{
+        color: whitesmoke;
+        position: relative; bottom: 100%; left: -36%; 
+        width: 25%;
+        height: 300px;
+        padding: 40px auto;
+        justify-content: center;
+        align-items: center;
+       
+        background-color:#292928;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+    
+       
+    
+     
+    
+    }
+}
+.loginDiv h1{
+    margin-top: 10px auto;
+    text-align: center;
+    border-bottom: 2px solid lightblue;
+    width: 50%;
+    margin-left: 23%;
+}
+.usernameInput::placeholder{
+    font-style: italic;
+    opacity: 0.5;
+    color: darkgray;
+
+}
+.usernameInput
+{  margin-left: 19%;
+   width: 57% ;
+   position: relative;
+}
+.passwordInput
+{
+    margin-left: 19%;
+   width: 57% ;
+   position: relative;
+}
+.passwordInput::placeholder
+{
+    font-style: italic;
+    opacity: 0.5;
+    color: darkgray;
+}
+.submitBtn
+{ 
+ 
+   background-color:#4072e6;
+   color: whitesmoke;
+  
+   margin-left: 19%;
+   width: 57% ;
+   position: relative;
+   
+}

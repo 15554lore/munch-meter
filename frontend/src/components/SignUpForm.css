@@ -1,0 +1,105 @@
+.signUpDiv{
+    color: whitesmoke;
+   
+
+
+}
+@media  screen and  (max-width:900px){
+    .signUpDiv{
+        color: whitesmoke;
+        position: relative; top: 20%; left: -7.8%; 
+        width: 82%;
+        min-height:  45vh;
+        
+       
+        justify-content: center;
+        align-items: center;
+       
+        background-color:#292928;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;}
+    
+}
+@media screen and (min-width: 901px){
+    .signUpDiv{
+        color: whitesmoke;
+        position: relative; top: 20%; left: -35.5%; 
+        width: 29%;
+        min-height:  45vh;
+        
+       
+        justify-content: center;
+        align-items: center;
+       
+        background-color:#292928;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;}
+    
+}
+.signUpDiv h1{
+    margin-top: 10px auto;
+    text-align: center;
+    border-bottom: 2px solid lightblue;
+    width: 50%;
+    margin-left: 23%;
+}
+.emailInput
+{
+    margin-left: 19%;
+    width: 57% ;
+    position: relative;
+    margin-bottom: 4%;
+}
+.emailInput::placeholder{
+    font-style: italic;
+    opacity: 0.5;
+    color: darkgray;
+
+}
+.passwordInput{
+   margin-left: 19%;
+   width: 57% ;
+   position: relative;
+   margin-bottom: 7% auto;
+}
+.passwordInvalidLabel{  
+    margin-left: 29%;
+    position: relative;
+    color: lightcoral;
+
+}
+.emailInvalidLabel{
+    margin-left: 31.9%;
+    position: relative;
+    color: lightcoral;
+
+}
+.usernameEmptyLabel{
+    margin-left: 21%;
+    position: relative;
+    color: lightcoral;
+
+
+}
+.usernameInput{
+    margin-left: 19%;
+    width: 57% ;
+    position: relative;
+    margin-bottom: 4%;
+}
+.usernameInput::placeholder{
+    font-style: italic;
+    opacity: 0.5;
+    color: darkgray;
+}
+.passwordInput::placeholder
+{
+    font-style: italic;
+    opacity: 0.5;
+    color: darkgray;
+}
+.submitBtn{
+    margin-top:5%;
+}

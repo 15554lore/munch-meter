@@ -1,0 +1,127 @@
+.toSignUpFormBtn
+{   color: whitesmoke;
+ 
+   
+    
+   
+    
+    
+}
+@media  screen and  (max-width:850px){
+    .toSignUpFormBtn
+{   color: whitesmoke;
+ 
+    background:none;
+    position: relative; bottom: 0%; left: -9.78%;
+    border:none;   
+    margin-left: 30.4% ;
+    margin-bottom: 23%;
+    margin-right: 10%;  
+  
+}
+
+}
+@media screen and (min-width: 851px) and (max-width: 1098px){
+    .toSignUpFormBtn
+    {   color: whitesmoke;
+     
+        background:none;
+        position: relative; bottom: 0%; left: 4%;
+        border:none;   
+        margin-left: 30.4% ;
+        margin-bottom: 23%;
+        margin-right: 10%;  
+      
+    }
+}
+@media screen and (min-width: 1099px) {
+    .toSignUpFormBtn
+{   color: whitesmoke;
+ 
+    background:none;
+    position: relative; bottom: 0%; left: 8.5%;
+    border:none;
+ 
+   
+    margin-left: 30.4% ;
+    margin-bottom: 23%;
+    margin-right: 10%;
+    
+   
+    
+}
+}
+
+.toSignUpFormBtn:hover{
+    color: rgba(68, 68, 233, 0.658);
+    text-decoration: underline;  
+    background-color: rgb(26, 36, 46);
+   
+    
+}
+.toLoginFormBtn:hover{
+    color: rgba(68, 68, 233, 0.658);
+    text-decoration: underline;  
+    background-color: rgb(26, 36, 46);
+
+}
+.toLoginFormBtn{
+    color: whitesmoke;
+ 
+  
+   
+
+}
+@media  screen and  (max-width:885px){
+    .toLoginFormBtn{
+        color: whitesmoke;
+ 
+        background:none;
+        position: relative; bottom: 0%; left: -9.78%;
+        border:none;
+        
+       
+       
+        margin-left: 30.4% ;
+        margin-bottom: 23%;
+        margin-right: 10%;
+       
+    
+    }
+}
+@media screen and (min-width: 886px) and (max-width: 1098px){
+    .toLoginFormBtn{
+        color: whitesmoke;
+     
+        background:none;
+        position: relative; bottom: 0%; left: 3.99% ;
+        border:none;
+        margin:0;
+        padding:10px;
+        cursor: pointer;
+        margin-left: 30% ;
+        margin-bottom: 23%;
+        margin-right: 10%;
+       
+    
+    }
+    
+}
+@media screen and (min-width: 1099px){
+    .toLoginFormBtn{
+        color: whitesmoke;
+     
+        background:none;
+        position: relative; bottom: 0%; left: 7.4% ;
+        border:none;
+        margin:0;
+        padding:10px;
+        cursor: pointer;
+        margin-left: 30% ;
+        margin-bottom: 23%;
+        margin-right: 10%;
+       
+    
+    }
+    
+}
